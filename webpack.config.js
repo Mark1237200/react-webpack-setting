@@ -24,6 +24,14 @@ module.exports = {
         // rules : Array
         rules: [
             {
+                // test : 테스트를 통과하는 모듈의 파일 규칙을 정함
+                test: /\.(js|jsx)$/,
+                // loader === use
+                loader: "babel-loader",
+                // exclude : 테스트에서 제외할 경로 
+                exclude: /node_modules/
+            },
+            {
                 test: /\.css$/,
                 use: [MiniCssExtractPlugin.loader, "css-loader"]
             }
