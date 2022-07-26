@@ -1,0 +1,8 @@
+# build
+build
+# module
+node_modules
+# package
+package-lock.json
+# etc
+DS_stroe
