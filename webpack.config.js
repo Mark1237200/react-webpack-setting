@@ -6,6 +6,9 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 module.exports = {
   // mode : 개발용인지 배포용인지 확인
   mode: 'development',
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   // entry : 진입점
   entry: {
     index: './src/index.js',
