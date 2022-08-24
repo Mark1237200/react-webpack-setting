@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack",
-    "lint": "eslint --fix . && eslint .",
+    "start": "webpack-dev-server --port 3000 --open",
+    "build": "webpack --mode=production --progress",
+    "lint": "eslint --fix src && eslint src",
     "prepare": "husky install"
   },
   "keywords": [],
   "author": "YHJ96",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.18.9",
     "@babel/core": "^7.18.9",
