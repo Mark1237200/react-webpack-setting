@@ -21,9 +21,10 @@
   },
   "ignorePatterns": ["build", "node_modules"],
   "rules": {
+    "linebreak-style": ["error", "windows"],
     "quotes": [
       "error",
-      "double",
+      "single",
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
@@ -35,15 +36,6 @@
     "react/prop-types": ["off"],
     "react-hooks/exhaustive-deps": ["warn"],
     "react/jsx-props-no-spreading": ["warn"],
-    "comma-dangle": [
-      "error",
-      {
-        "arrays": "never",
-        "objects": "never",
-        "imports": "never",
-        "exports": "never",
-        "functions": "never"
-      }
-    ]
+    "comma-dangle": ["error"]
   }
 }
