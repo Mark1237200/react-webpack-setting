@@ -1,0 +1,28 @@
+{
+  "answer": [
+    {
+      "id": 1,
+      "question_id": 100,
+      "reply_id": 200,
+      "member_id": "Mark1237200",
+      "content": "답변입니다",
+      "date": "2022-08-27"
+    },
+    {
+      "id": 2,
+      "question_id": 100,
+      "reply_id": 201,
+      "member_id": "Mark123",
+      "content": "안녕하세요",
+      "date": "2022-08-28"
+    },
+    {
+      "id": 1,
+      "question_id": 100,
+      "reply_id": 202,
+      "member_id": "Mark12372",
+      "content": "반갑습니다",
+      "date": "2022-08-28"
+    }
+  ]
+}
